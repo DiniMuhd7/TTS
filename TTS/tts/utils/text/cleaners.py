@@ -81,6 +81,8 @@ def replace_symbols(text, lang="en"):
         text = text.replace("x", " z ")
         text = text.replace("Q", " Ƙ ")
         text = text.replace("q", " ƙ ")
+        text = text.replace("v", " B ")
+        text = text.replace("V", " B ")
     return text
 
 
